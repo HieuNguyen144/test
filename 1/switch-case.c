@@ -2,10 +2,11 @@
 
 int main()
 {
-    int day;
-    scanf("hom nay la ngay: %d", &day);
+    int day, n;
+    printf("Hom nay là ngay: ");
+    scanf("%d", &day);
 
-    int n = day%7;
+    n = day%7;
 
     switch (n)
     {
@@ -30,9 +31,9 @@ int main()
     case 7:
         printf("Today is Sunday");
         break;
-    
+
     default:
-        
+
     }
 
 return 0;
